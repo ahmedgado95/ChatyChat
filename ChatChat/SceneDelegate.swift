@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+         FirebaseApp.configure()
+        if Auth.auth().currentUser?.uid != nil {
+            let st = UIStoryboard.init(name: "Main", bundle: nil)
+            let vc = st.instantiateViewController(identifier: "HomeVC")  as! HomeVC
+            let nav = UINavigationController(rootViewController: vc)
+            nav.navigationBar.isHidden = true
+            self.window?.rootViewController = nav
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
@@ -48,7 +57,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
 
         // Save changes in the application's managed object context when the application transitions to the background.
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
 
