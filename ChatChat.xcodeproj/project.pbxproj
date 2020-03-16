@@ -19,7 +19,6 @@
 		009B5AEC2416D55C0017A8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009B5AEB2416D55C0017A8FB /* Assets.xcassets */; };
 		009B5AEF2416D55C0017A8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009B5AED2416D55C0017A8FB /* LaunchScreen.storyboard */; };
 		009B5AF82416D6F40017A8FB /* RegisterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5AF72416D6F40017A8FB /* RegisterVc.swift */; };
-		009B5AFA241771BC0017A8FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 009B5AF9241771BC0017A8FB /* GoogleService-Info.plist */; };
 		009B5AFD241778F70017A8FB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5AFC241778F70017A8FB /* Helper.swift */; };
 		009B5AFF24177B330017A8FB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5AFE24177B330017A8FB /* Constant.swift */; };
 		009B5B02241782C40017A8FB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5B01241782C40017A8FB /* HomeVC.swift */; };
@@ -27,6 +26,7 @@
 		009B5B082417A11C0017A8FB /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5B062417A11C0017A8FB /* UserViewCell.swift */; };
 		009B5B092417A11C0017A8FB /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009B5B072417A11C0017A8FB /* UserViewCell.xib */; };
 		52A84AF975E8D37D789B7D3E /* Pods_ChatChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF5B477139D840D47E20EEA /* Pods_ChatChat.framework */; };
+		F8AB4E58241FA72B00BEE967 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8AB4E57241FA72B00BEE967 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		00509AFA2417FE5300A14D8C /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		00509AFC24181A8500A14D8C /* MessageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
 		00509AFD24181A8500A14D8C /* MessageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewCell.xib; sourceTree = "<group>"; };
-		009B5ADC2416D55B0017A8FB /* ChatChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009B5ADC2416D55B0017A8FB /* ChatyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009B5ADF2416D55B0017A8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009B5AE12416D55B0017A8FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		009B5AE32416D55B0017A8FB /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
@@ -44,7 +44,6 @@
 		009B5AEE2416D55C0017A8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009B5AF02416D55C0017A8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009B5AF72416D6F40017A8FB /* RegisterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVc.swift; sourceTree = "<group>"; };
-		009B5AF9241771BC0017A8FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		009B5AFC241778F70017A8FB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		009B5AFE24177B330017A8FB /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		009B5B01241782C40017A8FB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		AC72385444E014723907914A /* Pods-ChatChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatChat.debug.xcconfig"; path = "Target Support Files/Pods-ChatChat/Pods-ChatChat.debug.xcconfig"; sourceTree = "<group>"; };
 		EBF5B477139D840D47E20EEA /* Pods_ChatChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27CA3D99087D50385E9482B /* Pods-ChatChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatChat.release.xcconfig"; path = "Target Support Files/Pods-ChatChat/Pods-ChatChat.release.xcconfig"; sourceTree = "<group>"; };
+		F8AB4E57241FA72B00BEE967 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		009B5ADD2416D55B0017A8FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				009B5ADC2416D55B0017A8FB /* ChatChat.app */,
+				009B5ADC2416D55B0017A8FB /* ChatyChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 		009B5ADE2416D55B0017A8FB /* ChatChat */ = {
 			isa = PBXGroup;
 			children = (
-				009B5AF9241771BC0017A8FB /* GoogleService-Info.plist */,
+				F8AB4E57241FA72B00BEE967 /* GoogleService-Info.plist */,
 				009B5ADF2416D55B0017A8FB /* AppDelegate.swift */,
 				009B5AE12416D55B0017A8FB /* SceneDelegate.swift */,
 				009B5AFB241778E30017A8FB /* Extension */,
@@ -237,7 +237,7 @@
 			);
 			name = ChatChat;
 			productName = ChatChat;
-			productReference = 009B5ADC2416D55B0017A8FB /* ChatChat.app */;
+			productReference = 009B5ADC2416D55B0017A8FB /* ChatyChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,11 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				009B5AEF2416D55C0017A8FB /* LaunchScreen.storyboard in Resources */,
-				009B5AFA241771BC0017A8FB /* GoogleService-Info.plist in Resources */,
 				00509AFF24181A8500A14D8C /* MessageViewCell.xib in Resources */,
 				009B5AEC2416D55C0017A8FB /* Assets.xcassets in Resources */,
 				009B5B092417A11C0017A8FB /* UserViewCell.xib in Resources */,
 				009B5AE72416D55B0017A8FB /* Main.storyboard in Resources */,
+				F8AB4E58241FA72B00BEE967 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +500,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChatChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatyChat;
+				PRODUCT_NAME = ChatyChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -519,8 +519,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ChatChat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatyChat;
+				PRODUCT_NAME = ChatyChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

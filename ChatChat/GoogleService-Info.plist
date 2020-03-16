@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>487031784798-unfgf3s0sjcutjmj27l4hcmsam08c9ko.apps.googleusercontent.com</string>
+	<string>130509298037-861aai0rqb7shkpd8abibrnqhads9384.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.487031784798-unfgf3s0sjcutjmj27l4hcmsam08c9ko</string>
+	<string>com.googleusercontent.apps.130509298037-861aai0rqb7shkpd8abibrnqhads9384</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDVN-P7ZX2jHOEiE5iMCBDcr8io0nBE4gI</string>
+	<string>AIzaSyDYWS68vfyf1l26c6hUZzLx88rxPFRlJv8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>487031784798</string>
+	<string>130509298037</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.ChatChat</string>
+	<string>com.ChatyChat</string>
 	<key>PROJECT_ID</key>
-	<string>chatchat-d74de</string>
+	<string>chatychat-72555</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chatchat-d74de.appspot.com</string>
+	<string>chatychat-72555.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:487031784798:ios:fd6302d7f3aed1ae4bfbcf</string>
+	<string>1:130509298037:ios:bc84c7f99ff45d37f89b3c</string>
 	<key>DATABASE_URL</key>
-	<string>https://chatchat-d74de.firebaseio.com</string>
+	<string>https://chatychat-72555.firebaseio.com</string>
 </dict>
 </plist>
